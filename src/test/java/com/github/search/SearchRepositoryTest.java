@@ -23,7 +23,7 @@ public class SearchRepositoryTest {
         "defunkt,stars,stargazers_count,20",
         "defunkt,forks,forks_count,30",
         "defunkt,help-wanted-issues,open_issues_count,10",
-        "defunkt,updated,updated_at,10",
+        "defunkt,updated,updated_at,10"
     })
     public void shouldSearchByAuthorNameSortingAndPagination(String user, String sortingParam, String sortingKey, int pagination) {
         Map params = new HashMap<String, String>();
